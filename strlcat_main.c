@@ -5,10 +5,11 @@
 
 int main (void)
 {
-	size_t size = 11;
-	char dst[11] = "lalala";
+	size_t size = 14;
+	char dst1[11] = "lalal";
+	char dst2[11] = "lalal";
 	char *src = "bubu"; //test to ""!!!!!
- //	printf ("My copy %zu - %s\n", ft_strlcat(dst, src, size), dst);
-	printf ("Default copy %zu - %s\n", strlcat(dst, src, size), dst);
+ 	printf ("My cat  %zu - %s\n", ft_strlcat(dst1, src, size), dst1);
+	printf ("Default cat %zu - %s\n", strlcat(dst2, src, size), dst2);
 	return (0);
 }
