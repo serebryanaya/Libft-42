@@ -11,3 +11,5 @@ int main (void)
  	ft_memset(str, i, len);
 	return (0);
 }
+// надо в фнукцию добавить строки с принт в цикл while:
+//printf ("наполнение: %c\n", tmp[i]);

@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h> //!!!!!
 
 void	*ft_memset(void *str, int c, size_t len)
 {
@@ -18,10 +19,11 @@ void	*ft_memset(void *str, int c, size_t len)
 	size_t	i;
 
 	i = 0;
-	tmp = (unsigned char *)str;
+	tmp = str;
 	while (i < len)
 	{
 		tmp[i] = c;
+		printf ("now in line: %c\n", tmp[i]); //!!!!!!!
 		i++;
 	}
 	return (str);
