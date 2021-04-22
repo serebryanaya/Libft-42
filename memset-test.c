@@ -8,8 +8,10 @@ int main (void)
 	size_t len = 4;
 	int i = '5';
 	char str[10] =  "lalal";
- 	ft_memset(str, i, len);
+	char ptr[10] =  "lalal";
+	ft_memset(str, i, len);
+    printf ("my func: %c\n", str[0]);
+    memset(ptr, i, len);
+    printf ("def func: %c\n", ptr[0]);
 	return (0);
 }
-// надо в фнукцию добавить строки с принт в цикл while:
-//printf ("наполнение: %c\n", tmp[i]);

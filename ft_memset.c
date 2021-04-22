@@ -11,19 +11,15 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h> //!!!!!
 
 void	*ft_memset(void *str, int c, size_t len)
 {
-	unsigned char	*tmp;
 	size_t	i;
 
 	i = 0;
-	tmp = str;
 	while (i < len)
 	{
-		tmp[i] = c;
-		printf ("now in line: %c\n", tmp[i]); //!!!!!!!
+		*((unsigned char *)str + i) = c;
 		i++;
 	}
 	return (str);
