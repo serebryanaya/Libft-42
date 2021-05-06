@@ -1,12 +1,7 @@
-#include "libft.h"
-
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-unsigned char   m;
-
-m = c + '\0';
-if (m >= '0' && m <= '9')
-    return (1);
-else
-    return (0);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }
