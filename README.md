@@ -1,0 +1,32 @@
+Libft
+В проекте создается собственная библиотека функций на языке С.
+• memset
+• bzero
+• memcpy
+• memccpy
+• memmove
+• memchr
+• memcmp
+• strlen
+• strlcpy
+• strlcat
+• strchr
+• strrchr
+• strnstr
+• strncmp
+• atoi
+• isalpha
+• isdigit
+• isalnum
+• isascii
+• isprint
+• toupper
+• tolower
+• calloc
+• strdup
+• substr
+• strjoin
+• strtrim
+• split
+• itoa
+• strmapi
