@@ -4,7 +4,7 @@
 > Your very first own library
 
 ## How to use
-+ To compile:
++ To compile library:
   + `make` or `make bonus`
 + To remove objects:
   + `make clean`
@@ -12,6 +12,8 @@
   + `make fclean`
 + To re-compile:
   + `make re`
+
+Compile your own `main.c` with this library `libft.a` to use functions.
 
 ## Some examples 
 Function | Summary
