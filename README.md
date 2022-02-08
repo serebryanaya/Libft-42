@@ -1,32 +1,17 @@
-Libft
+# Libft-42
 В проекте создается собственная библиотека функций на языке С.
-• memset
-• bzero
-• memcpy
-• memccpy
-• memmove
-• memchr
-• memcmp
-• strlen
-• strlcpy
-• strlcat
-• strchr
-• strrchr
-• strnstr
-• strncmp
-• atoi
-• isalpha
-• isdigit
-• isalnum
-• isascii
-• isprint
-• toupper
-• tolower
-• calloc
-• strdup
-• substr
-• strjoin
-• strtrim
-• split
-• itoa
-• strmapi
+
+> Your very first own library
+
+## Some examples 
+Function | Summary
+--- | ---
+ft_itoa | Convert int into a string
+ft_split | Split string with delimiters
+ft_substr | Get a substring of a char*
+ft_strjoin | Combines strings to a string separated by the specified delimiter string
+ft_strdup | Duplicates a string
+ft_atoi | Converts the string argument to an integer
+ft_lstnew | Allocates and returns a new node
+ft_lstadd_front | Adds the node ’new’ at the beginning of the list
+ft_lstlast | Returns the last node of the list
